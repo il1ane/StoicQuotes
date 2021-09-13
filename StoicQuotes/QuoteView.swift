@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct QuoteView: View {
+    
+    @ObservedObject var viewModel:QuotesViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(viewModel.quote?.data.quote ?? "")
+            
+            Spacer().frame(height: 10)
+            
+            Text(viewModel.quote?.data.author ?? "")
+                .bold()
+            
+        }
     }
 }
 
 struct QuoteView_Previews: PreviewProvider {
     static var previews: some View {
-        QuoteView()
+        QuoteView(viewModel: QuotesViewModel())
     }
 }

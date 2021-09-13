@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		91A4A30B26EFC4FC00DB64A7 /* StoicQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A30A26EFC4FC00DB64A7 /* StoicQuotesApp.swift */; };
-		91A4A30D26EFC4FC00DB64A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A30C26EFC4FC00DB64A7 /* ContentView.swift */; };
 		91A4A30F26EFC4FE00DB64A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A4A30E26EFC4FE00DB64A7 /* Assets.xcassets */; };
 		91A4A31226EFC4FE00DB64A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A4A31126EFC4FE00DB64A7 /* Preview Assets.xcassets */; };
 		91A4A31426EFC4FE00DB64A7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A31326EFC4FE00DB64A7 /* Persistence.swift */; };
 		91A4A31726EFC4FE00DB64A7 /* StoicQuotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A31526EFC4FE00DB64A7 /* StoicQuotes.xcdatamodeld */; };
 		91A4A32226EFC4FE00DB64A7 /* StoicQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A32126EFC4FE00DB64A7 /* StoicQuotesTests.swift */; };
 		91A4A32D26EFC4FE00DB64A7 /* StoicQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A32C26EFC4FE00DB64A7 /* StoicQuotesUITests.swift */; };
+		91A4A33B26EFC51C00DB64A7 /* QuoteViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A33A26EFC51C00DB64A7 /* QuoteViews.swift */; };
+		91A4A33D26EFC53300DB64A7 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A33C26EFC53300DB64A7 /* QuotesViewModel.swift */; };
+		91A4A33F26EFC56000DB64A7 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A33E26EFC56000DB64A7 /* QuoteModel.swift */; };
+		91A4A34126EFF6B900DB64A7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A34026EFF6B900DB64A7 /* ButtonView.swift */; };
+		91A4A34326EFF8D300DB64A7 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4A34226EFF8D300DB64A7 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		91A4A30726EFC4FC00DB64A7 /* StoicQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoicQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A4A30A26EFC4FC00DB64A7 /* StoicQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoicQuotesApp.swift; sourceTree = "<group>"; };
-		91A4A30C26EFC4FC00DB64A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91A4A30E26EFC4FE00DB64A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91A4A31126EFC4FE00DB64A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91A4A31326EFC4FE00DB64A7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		91A4A32826EFC4FE00DB64A7 /* StoicQuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoicQuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A4A32C26EFC4FE00DB64A7 /* StoicQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoicQuotesUITests.swift; sourceTree = "<group>"; };
 		91A4A32E26EFC4FE00DB64A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A4A33A26EFC51C00DB64A7 /* QuoteViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViews.swift; sourceTree = "<group>"; };
+		91A4A33C26EFC53300DB64A7 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		91A4A33E26EFC56000DB64A7 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		91A4A34026EFF6B900DB64A7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		91A4A34226EFF8D300DB64A7 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				91A4A30A26EFC4FC00DB64A7 /* StoicQuotesApp.swift */,
-				91A4A30C26EFC4FC00DB64A7 /* ContentView.swift */,
+				91A4A33A26EFC51C00DB64A7 /* QuoteViews.swift */,
+				91A4A33C26EFC53300DB64A7 /* QuotesViewModel.swift */,
+				91A4A34226EFF8D300DB64A7 /* QuoteView.swift */,
+				91A4A34026EFF6B900DB64A7 /* ButtonView.swift */,
+				91A4A33E26EFC56000DB64A7 /* QuoteModel.swift */,
 				91A4A30E26EFC4FE00DB64A7 /* Assets.xcassets */,
 				91A4A31326EFC4FE00DB64A7 /* Persistence.swift */,
 				91A4A31826EFC4FE00DB64A7 /* Info.plist */,
@@ -265,10 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A4A33F26EFC56000DB64A7 /* QuoteModel.swift in Sources */,
 				91A4A31426EFC4FE00DB64A7 /* Persistence.swift in Sources */,
-				91A4A30D26EFC4FC00DB64A7 /* ContentView.swift in Sources */,
+				91A4A33D26EFC53300DB64A7 /* QuotesViewModel.swift in Sources */,
+				91A4A34326EFF8D300DB64A7 /* QuoteView.swift in Sources */,
 				91A4A30B26EFC4FC00DB64A7 /* StoicQuotesApp.swift in Sources */,
 				91A4A31726EFC4FE00DB64A7 /* StoicQuotes.xcdatamodeld in Sources */,
+				91A4A33B26EFC51C00DB64A7 /* QuoteViews.swift in Sources */,
+				91A4A34126EFF6B900DB64A7 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

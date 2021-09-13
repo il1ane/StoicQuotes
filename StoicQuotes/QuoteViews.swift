@@ -9,7 +9,7 @@ import SwiftUI
 
 struct QuoteViews: View {
     
-    @ObservedObject var viewModel = QuoteViewModel()
+    @ObservedObject var viewModel = QuotesViewModel()
     @State private var buttonIsDisabled = false
     
     var body: some View {
@@ -23,8 +23,9 @@ struct QuoteViews: View {
                 VStack {
                     
                     if viewModel.quote != nil {
-                        ExtractedView()
+                        QuoteView(viewModel: viewModel)
                     }
+                    
                     else {
                         ProgressView()
                             .animation(.none)
@@ -45,7 +46,7 @@ struct QuoteViews: View {
     }
 }
 
-struct QuoteView_Previews: PreviewProvider {
+struct QuoteViews_Previews: PreviewProvider {
     static var previews: some View {
         QuoteViews()
     }
@@ -53,16 +54,4 @@ struct QuoteView_Previews: PreviewProvider {
 
 
 
-struct ExtractedView: View {
-    var body: some View {
-        VStack {
-            Text(viewModel.quote?.data.quote ?? "N/A")
-            
-            Spacer().frame(height: 10)
-            
-            Text(viewModel.quote?.data.author ?? "N/A")
-                .bold()
-            
-        }
-    }
-}
+

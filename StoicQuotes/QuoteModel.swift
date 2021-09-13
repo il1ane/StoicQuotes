@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Quote: Codable {
+    let data: QuoteData
+}
+
+struct QuoteData: Codable {
+    let author, quote: String
+}
